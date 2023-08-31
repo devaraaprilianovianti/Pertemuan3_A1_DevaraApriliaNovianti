@@ -1,0 +1,13 @@
+blog = 'Klinik' + 'Python'
+print(blog)
+newblog = blog5
+print(newblog)
+blog = 4
+print(blog)
+string = 'Klinik' 'Python'
+print(string)
+buah = 'Nanas'
+print(buah[0])
+print(buah[02])
+print(buah[04])
+print(buah[05])
