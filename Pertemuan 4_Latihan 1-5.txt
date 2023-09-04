@@ -1,0 +1,109 @@
+LATIHAN 1
+
+# Program Persyaratan SIM
+umur = int(input("Masukan Umur Anda = "))
+nilai = int(input("Masukan Nilai Tes Anda = "))
+lulus = "Selamat Anda Berhak Mendapatkan Sim Anda"
+gagal = "Maaf, Anda tidak berhak mendapatkan sim anda\nSilahkan\
+Coba lagi Bulan atau tahun Depan"
+
+if umur > 17:
+    if nilai < 60:
+        print(gagal)
+    else:
+        print(lulus)
+else:
+    print(gagal)
+
+LATIHAN 2
+
+#Nama file: if_statement.py
+
+hari = 3
+
+if (hari==1):
+   print ("Hari Senin")
+if (hari==2):
+   print ("Hari Selasa")
+if (hari==3):
+   print ("Hari Rabu")
+if (hari==4):
+   print ("Hari Kamis")
+if (hari==5):
+   print ("Hari Jumat")
+if (hari==6):
+   print ("Hari Sabtu")
+if (hari==7):
+   print ("Hari Minggu")
+
+LATIHAN 3
+
+#Nama file: if_elif_else_statement.py
+hari = 9
+if (hari==1):
+    print ("Hari ini hari Senin")
+elif(hari==2):
+    print ("Hari ini hari Selasa")
+elif(hari==3):
+    print ("Hari ini hari Rabu")
+elif(hari==4):
+    print ("Hari ini hari Kamis")
+elif(hari==5):
+    print ("Hari ini hari Jumat")
+elif(hari==6):
+    print ("Hari ini hari Sabtu")
+elif(hari==7):
+    print ("Hari ini hari Minggu")
+else:
+    print ("Hari tidak terdaftar") 
+
+LATIHAN 4
+
+# Nama file: nested_if_statement.py
+jenis_kelamin = "Pria"
+umur = 20
+if jenis_kelamin == "Pria":
+    if umur >= 25:
+        print("Pria boleh menikah")
+    else:
+        print("Pria tidak boleh menikah")
+elif jenis_kelamin == "Wanita":
+    if umur >= 20:
+        print("Wanita boleh menikah")
+    else:
+        print("Wanita tidak boleh menikah")
+else:
+    print("Jenis kelamin tidak terdaftar")
+
+LATIHAN 5
+
+nilai1 = int(input("Masukkan nilai siswa ke-1: "))
+nilai2 = int(input("Masukkan nilai siswa ke-2: "))
+nilai3 = int(input("Masukkan nilai siswa ke-3: "))
+nilai4 = int(input("Masukkan nilai siswa ke-4: "))
+nilai5 = int(input("Masukkan nilai siswa ke-5: "))
+
+if nilai1 >= 70:
+    print("Siswa ke-1 Lulus")
+else:
+    print("Siswa ke-1 Tidak Lulus")
+
+if nilai2 >= 70:
+    print("Siswa ke-2 Lulus")
+else:
+    print("Siswa ke-2 Tidak Lulus")
+
+if nilai3 >= 70:
+    print("Siswa ke-3 Lulus")
+else:
+    print("Siswa ke-3 Tidak Lulus")
+
+if nilai4 >= 70:
+    print("Siswa ke-4 Lulus")
+else:
+    print("Siswa ke-4 Tidak Lulus")
+
+if nilai5 >= 70:
+    print("Siswa ke-5 Lulus")
+else:
+    print("Siswa ke-5 Tidak Lulus")
